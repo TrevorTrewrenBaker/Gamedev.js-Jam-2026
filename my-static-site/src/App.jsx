@@ -4,8 +4,34 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+import * as LJS from 'littlejsengine'; 
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  // function gameInit(){
+
+  // }
+  
+  // function gameUpdate(){
+
+  // }
+  
+  // function gameUpdatePost(){
+
+  // }
+
+  // function gameRender(){
+
+  // }
+
+  // function gameRenderPost(){
+
+  // }
+
+
+
+  // LJS.engineInit(gameInit, gameUpdate, gameUpdatePost, gameRender, gameRenderPost, []);
 
   return (
     <>
